@@ -1,0 +1,4 @@
+/home/links
+kill -STOP %/home/links
+(sleep 60 ; sleep 60 ; ls -alR / > flist &) 
+

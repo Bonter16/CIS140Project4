@@ -1,0 +1,5 @@
+cd ~/
+touch .bash_profile
+echo -e "text \033[1mbold\033[0m text"
+alias setprompt 'set prompt="${cwd}%
+$ export PS1="\e[0;32m[\u@\h \W]\$ \e[m "

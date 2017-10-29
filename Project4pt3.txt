@@ -1,0 +1,2 @@
+cp -a phonelist.csv hom/phonelist/phonelist.csv 
+echo "1234567890"|sed 's/[0-9][0-9][0-9]\([0-9][0-9][0-9]\)\([0-9][0-9][0-9][0-9]\)/\1-\2/'
